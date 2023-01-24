@@ -10,4 +10,12 @@ class ContactController extends Controller
     {
         return view('contact');
     }
+
+    /**
+     * @Route("subscribe", name="subscribe")
+     */
+    public function subscribe()
+    {
+        return [];
+    }
 }

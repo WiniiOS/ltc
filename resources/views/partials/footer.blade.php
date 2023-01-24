@@ -22,7 +22,7 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Liens utiles</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="{{ route('home') }}">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
@@ -44,7 +44,7 @@
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Notre Newsletter</h4>
             <p>Inscrivez vous à notre newsletter pour etre informé de nos promotions</p>
-            <form action="{{ route('subscribe') }}" method="post">
+            <form action="#" method="post">
               @csrf
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
