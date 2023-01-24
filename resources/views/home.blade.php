@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('hero')
+    @include('partials.hero')
+@endsection
+
 @section('content')
             
 <main id="main">
