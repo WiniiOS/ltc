@@ -7,9 +7,9 @@
           <div class="col-lg-3 col-md-6 footer-info">
             <h3>LTC GROUP</h3>
             <p>
-              A108 Adam Street <br>
-              NY 535022, USA<br><br>
-              <strong>Phone:</strong> +237 691 371 922<br> 670 129 795
+            Mvan descente entrée complexe BEAC,<br>
+            Yaoundé, Cameroun<br><br>
+              <strong>Phone:</strong> +237 691 371 922<br> +237 670 129 795<br>
               <strong>Email:</strong> ltcgroup@cyberjob.cm <br>
             </p>
             <div class="social-links mt-3">
@@ -71,7 +71,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>LTC Group</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>LTC Group Sarl</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         Designed by <a href="https://www.ltcgroup.cm/">LTC GROUP SARL</a>

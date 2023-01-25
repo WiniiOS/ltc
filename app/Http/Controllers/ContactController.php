@@ -12,6 +12,11 @@ class ContactController extends Controller
         return view('contact');
     }
 
+    public function sendmail(Request $request)
+    {
+        
+    }
+
     public function subscribe(Request $request)
     {
         $request->validate([
