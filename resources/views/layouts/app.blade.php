@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <title>LTC GROUP / HOME </title>
-        <meta content="" name="description">
-        <meta content="" name="keywords">
+        <title>LTC GROUP SARL </title>
+        <meta content="LTC Group Sarl" name="description">
+        <meta content="Market,digital,developpement web et mobile" name="keywords">
         <!-- Favicons -->
         <link href="{{ asset('imports/assets/img/favicon.png') }}" rel="icon">
         <link href="{{ asset('imports/assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">

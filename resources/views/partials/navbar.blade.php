@@ -3,8 +3,7 @@
   <div class="container d-flex align-items-center">
 
     <div class="logo me-auto">
-      <h1><a href="{{ route('home') }}">Ltc Group</a></h1>
-      <!-- <a href="{{ route('home') }}"><img src="imports/assets/img/logo.png" alt="" class="img-fluid"></a> -->
+      <a href="{{ route('home') }}"><img src="imports/assets/img/logo.png" alt="" class="img-fluid"><span> &nbsp; LTC GROUP SARL</span> </a>
     </div>
 
     <nav id="navbar" class="navbar">

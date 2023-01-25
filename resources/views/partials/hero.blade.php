@@ -11,9 +11,9 @@
           <div class="carousel-item active" style="background-image: url('imports/assets/img/slide/slide-1.jpg');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Bienvenue chez <span>LTC Group</span></h2>
-                <p class="animate__animated animate__fadeInUp">Votre agence multi-services. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                <h2 class="animate__animated animate__fadeInDown">Bienvenue chez <span>LTC Group En partenariat avec UBA</span></h2>
+                <p class="animate__animated animate__fadeInUp">L’entreprise LTC Group SARL est une entreprise exerçant dans divers domaines des nouvelles technologies entre autres le marketing digital, le développement d’application mobile et web, la communication, la publicité sur internet, la prestation de services, bâtiments et travaux publics, et le commerce général.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">En savoir plus</a>
               </div>
             </div>
           </div>
@@ -22,9 +22,9 @@
           <div class="carousel-item" style="background-image: url('imports/assets/img/slide/slide-2.jpg');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                <h2 class="animate__animated animate__fadeInDown">L'E-Market à votre porté </h2>
+                <p class="animate__animated animate__fadeInUp">L’entreprise LTC Group SARL est une entreprise exerçant dans divers domaines des nouvelles technologies entre autres le marketing digital, le développement d’application mobile et web, la communication, la publicité sur internet, la prestation de services, bâtiments et travaux publics, et le commerce général.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">En savoir plus</a>
               </div>
             </div>
           </div>
@@ -33,8 +33,12 @@
           <div class="carousel-item" style="background-image: url('imports/assets/img/slide/slide-3.jpg');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                <h2 class="animate__animated animate__fadeInDown">L'LTC GROUP HOST & Marketing Digital</h2>
+                <p class="animate__animated animate__fadeInUp">La publicité sur internet (Facebook, Instagram, YouTube...)
+                    ✓ La communication digitale : gestion des pages et des contenus digitaux ✓ La création des logos
+                    ✓ La création des affiches
+                    ✓ Graphisme.
+                  </p>
                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">En savoir plus</a>
               </div>
             </div>

@@ -14,7 +14,7 @@ class ContactController extends Controller
     /**
      * @Route("subscribe", name="subscribe")
      */
-    public function subscribe()
+    public function subscribe(Request $request)
     {
         return [];
     }
