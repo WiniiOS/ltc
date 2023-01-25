@@ -43,10 +43,26 @@
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Notre Newsletter</h4>
             <p>Inscrivez vous à notre newsletter pour etre informé de nos promotions</p>
+            
             <form action="{{ route('newsletter') }}" method="post">
               @csrf
               <input placeholder='votre.email@gmail.com' type="email" name="email"><input type="submit" value="Souscrire">
+              
             </form>
+
+            @if (session('success'))
+                <div class="alert alert-success">
+                    {{ session('success') }}
+                </div>
+            @endif
+            
+            @if($errors->any())
+                @foreach($errors->all() as $error)
+                    <div class="alert alert-danger" role="alert"> {{ $error }} </div>
+                @endforeach
+            @endif
+          
+
           </div>
 
         </div>

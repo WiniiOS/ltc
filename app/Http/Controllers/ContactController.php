@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contact;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
@@ -11,11 +12,19 @@ class ContactController extends Controller
         return view('contact');
     }
 
-    /**
-     * @Route("subscribe", name="subscribe")
-     */
     public function subscribe(Request $request)
     {
-        return [];
+        $request->validate([
+            'email' => ['required','email']
+        ]);
+
+        //we save the email address in database 
+        Contact::create([
+            'email' => $request->email
+        ]);
+
+        return back()->with('success', 'Votre e-mail a bien été ajouté à notre newsletter');
+
     }
+
 }
