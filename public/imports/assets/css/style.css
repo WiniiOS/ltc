@@ -263,7 +263,7 @@ h6,
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #1f3548;
+  color: #233d6b;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -292,7 +292,7 @@ h6,
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(31, 53, 72, 0.9);
+  background: rgba(28, 58, 115, 0.9);
   transition: 0.3s;
   z-index: 998;
 }
@@ -320,7 +320,7 @@ h6,
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #1f3548;
+  color: #1f2c48;
 }
 
 .navbar-mobile a:hover,
@@ -679,7 +679,7 @@ section {
 }
 
 .about .icon-box .title a:hover {
-  color: #16418e;
+  color: #f49821;
 }
 
 .about .icon-box .description {
@@ -858,7 +858,7 @@ section {
   font-size: 42px;
   display: block;
   font-weight: 700;
-  color: #1c5c93;
+  color: #16418e;
 }
 
 .counts .count-box p {
