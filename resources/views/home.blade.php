@@ -52,53 +52,6 @@
     </div>
     </section><!-- End About Us Section -->
 
-    <!-- ======= About Lists Section ======= -->
-    <section class="about-lists">
-    <div class="container">
-
-        <div class="row no-gutters">
-
-        <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up">
-            <span>01</span>
-            <h4>Lorem Ipsum</h4>
-            <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
-        </div>
-
-        <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
-            <span>02</span>
-            <h4>Repellat Nihil</h4>
-            <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
-        </div>
-
-        <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
-            <span>03</span>
-            <h4> Ad ad velit qui</h4>
-            <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
-        </div>
-
-        <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
-            <span>04</span>
-            <h4>Repellendus molestiae</h4>
-            <p>Inventore quo sint a sint rerum. Distinctio blanditiis deserunt quod soluta quod nam mider lando casa</p>
-        </div>
-
-        <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="400">
-            <span>05</span>
-            <h4>Sapiente Magnam</h4>
-            <p>Vitae dolorem in deleniti ipsum omnis tempore voluptatem. Qui possimus est repellendus est quibusdam</p>
-        </div>
-
-        <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="500">
-            <span>06</span>
-            <h4>Facilis Impedit</h4>
-            <p>Quis eum numquam veniam ea voluptatibus voluptas. Excepturi aut nostrum repudiandae voluptatibus corporis sequi</p>
-        </div>
-
-        </div>
-
-    </div>
-    </section><!-- End About Lists Section -->
-
     <!-- ======= Counts Section ======= -->
     <section class="counts section-bg">
     <div class="container">
@@ -109,15 +62,15 @@
             <div class="count-box">
             <i class="bi bi-simple-smile" style="color: #20b38e;"></i>
             <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Happy Clients</p>
+            <p>Clients satisfaits</p>
             </div>
         </div>
 
         <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="200">
             <div class="count-box">
             <i class="bi bi-document-folder" style="color: #c042ff;"></i>
-            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Projects</p>
+            <span data-purecounter-start="0" data-purecounter-end="60" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Réalisations</p>
             </div>
         </div>
 
@@ -125,7 +78,7 @@
             <div class="count-box">
             <i class="bi bi-live-support" style="color: #46d1ff;"></i>
             <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hours Of Support</p>
+            <p>Heures de Support</p>
             </div>
         </div>
 
@@ -133,7 +86,7 @@
             <div class="count-box">
             <i class="bi bi-users-alt-5" style="color: #ffb459;"></i>
             <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Hard Workers</p>
+            <p>Membres</p>
             </div>
         </div>
 
@@ -208,7 +161,7 @@
         <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
             <div class="icon"><i class="bi bi-calendar2-week"></i></div>
             <h4 class="title"><a href="">SERVICE CLIENT</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            <p class="description">Notre service client est disponible chaque jour pour vous orrienter.</p>
         </div>
         </div>
 
@@ -221,8 +174,8 @@
     <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="section-title">
-        <h2>Nos Projets</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <h2>Nos Réalisations</h2>
+        <p>Nos récentes réalisations graphiques et projets de sites webs livrés .</p>
         </div>
 
         <div class="row">
@@ -246,7 +199,7 @@
                 <p>App</p>
                 <div class="portfolio-links">
                 <a href="{{ url('imports/assets/img/portfolio/portfolio-1.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
                 </div>
             </div>
             </div>
@@ -260,7 +213,7 @@
                 <p>Web</p>
                 <div class="portfolio-links">
                 <a href="{{ url('imports/assets/img/portfolio/portfolio-2.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
                 </div>
             </div>
             </div>
@@ -274,7 +227,7 @@
                 <p>App</p>
                 <div class="portfolio-links">
                 <a href="{{ url('imports/assets/img/portfolio/portfolio-3.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
                 </div>
             </div>
             </div>
@@ -288,7 +241,7 @@
                 <p>Card</p>
                 <div class="portfolio-links">
                 <a href="{{ url('imports/assets/img/portfolio/portfolio-4.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
                 </div>
             </div>
             </div>
@@ -302,7 +255,7 @@
                 <p>Web</p>
                 <div class="portfolio-links">
                 <a href="{{ url('imports/assets/img/portfolio/portfolio-5.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
                 </div>
             </div>
             </div>
@@ -316,7 +269,7 @@
                 <p>App</p>
                 <div class="portfolio-links">
                 <a href="{{ url('imports/assets/img/portfolio/portfolio-6.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
                 </div>
             </div>
             </div>
@@ -330,7 +283,7 @@
                 <p>Card</p>
                 <div class="portfolio-links">
                 <a href="{{ url('imports/assets/img/portfolio/portfolio-7.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
                 </div>
             </div>
             </div>
@@ -344,7 +297,7 @@
                 <p>Card</p>
                 <div class="portfolio-links">
                 <a href="{{ url('imports/assets/img/portfolio/portfolio-8.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
                 </div>
             </div>
             </div>
@@ -358,7 +311,7 @@
                 <p>Web</p>
                 <div class="portfolio-links">
                 <a href="{{ url('imports/assets/img/portfolio/portfolio-9.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
                 </div>
             </div>
             </div>
@@ -374,8 +327,8 @@
     <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-        <h2>Our Team</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
+        <h2>Notre Team</h2>
+        <p>LTC GROUP SARL est principalement constitué d'une équipe jeune et dynamique.</p>
         </div>
 
         <div class="row">
@@ -384,12 +337,10 @@
             <div class="member">
             <div class="pic"><img src="{{ url('imports/assets/img/team/team-1.jpg') }}" class="img-fluid" alt=""></div>
             <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+                <h4>Lontsi</h4>
+                <span>CEO</span>
                 <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
                 <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
             </div>
@@ -400,10 +351,9 @@
             <div class="member">
             <div class="pic"><img src="{{ url('imports/assets/img/team/team-2.jpg') }}" class="img-fluid" alt=""></div>
             <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
+                <h4>Ornelle</h4>
+                <span>Assistante Direction</span>
                 <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>
                 <a href=""><i class="bi bi-instagram"></i></a>
                 <a href=""><i class="bi bi-linkedin"></i></a>
@@ -416,13 +366,12 @@
             <div class="member">
             <div class="pic"><img src="{{ url('imports/assets/img/team/team-3.jpg') }}" class="img-fluid" alt=""></div>
             <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
+                <h4>Christian</h4>
+                <span>Infographe</span>
                 <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>
                 <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
             </div>
             </div>
@@ -432,12 +381,10 @@
             <div class="member">
             <div class="pic"><img src="{{ url('imports/assets/img/team/team-4.jpg') }}" class="img-fluid" alt=""></div>
             <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
+                <h4>Frederic</h4>
+                <span>Developpeur</span>
                 <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
                 <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
                 <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
             </div>
@@ -450,13 +397,17 @@
     </section><!-- End Our Team Section -->
 
     <!-- ======= Map Section ======= -->
-    <section id="map" class="faq section-bg">
+    <section id="map" class="map section-bg">
     <div class="container" data-aos="fade-up">
 
-    <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=905&amp;height=424&amp;hl=en&amp;q=Mvan descente entrée complexe BEAC Yaoundé, Cameroun&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.gachacute.com/">www.gachacute.com</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:424px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:424px;}.gmap_iframe {height:424px!important;}</style></div>
-
+        <div class="mapouter">
+            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=905&amp;height=424&amp;hl=en&amp;q=Mvan descente entrée complexe BEAC Yaoundé, Cameroun&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+            <a href="https://www.gachacute.com/">www.gachacute.com</a>
+            </div>
+            <style>.mapouter{position:relative;text-align:right;width:100%;height:424px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:424px;}.gmap_iframe {height:424px!important;}</style>
+        </div>
     </div>
-    </section><!-- End Frequently Asked Questions Section -->
+    </section><!-- End Map -->
 
     <!-- ======= Contact Us Section ======= -->
     <section id="contact" class="contact">
