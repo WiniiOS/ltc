@@ -493,7 +493,8 @@
         </div>
 
         <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+
+            <form action="{{ route('sendmail') }}" method="post" role="form" class="php-email-form">
             @csrf
             <div class="row">
                 <div class="col-lg-6 form-group">
@@ -515,9 +516,14 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Merçi! Votre message a bien été envoyé.</div>
             </div>
-
+            @if (Session::has('successMail'))
+                <div class="alert alert-success">
+                    {{ Session:get('successMail') }}
+                </div>
+            @endif
             <div class="text-center"><button type="submit">Envoyer</button></div>
             </form>
+
         </div>
 
         </div>
