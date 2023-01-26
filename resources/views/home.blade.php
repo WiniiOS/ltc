@@ -504,12 +504,11 @@
                 <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
                 </div>
             </div>
-            <!-- <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" required>
-            </div> -->
             <div class="form-group">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
             </div>
+
+            
 
             <div class="my-3">
                 <div class="loading">Chargement</div>
@@ -518,8 +517,13 @@
             </div>
             
             <div class="text-center"><button type="submit">Envoyer</button></div>
+            <!-- <input type="submit" value="Envoyer"> -->
             </form>
-
+            @if (session('successMail'))
+                <div class="alert alert-success">
+                    {{ session('successMail') }}
+                </div>
+            @endif
         </div>
 
         </div>

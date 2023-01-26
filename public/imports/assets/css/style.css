@@ -1,10 +1,4 @@
-/**
-* Template Name: Mamba - v4.10.0
-* Template URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
+/* code couleurs LTC  BLEU:16418e ORANGE: f49821 */
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -19,7 +13,7 @@ a {
 }
 
 a:hover {
-  color: #9eccf4;
+  color: #f49821;
   text-decoration: none;
 }
 
@@ -43,7 +37,7 @@ h6,
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #428bca;
+  background: #16418e;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -1369,17 +1363,18 @@ section {
   }
 }
 
+/* footer LTC  */
 #footer {
-  background: #587187;
+  background: #16418e;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #5c768d;
-  border-top: 1px solid #768fa6;
-  border-bottom: 1px solid #67839c;
+  background: #16418e;
+  border-top: 1px solid #16418e;
+  border-bottom: 1px solid #1f4b9d;
   padding: 60px 0 30px 0;
 }
 
@@ -1444,7 +1439,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #9eccf4;
+  color: #3977ad;
   font-size: 18px;
   line-height: 1;
 }
@@ -1467,7 +1462,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #9eccf4;
+  color: #2f75b3;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1493,14 +1488,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #428bca;
+  background: #16418e;
   color: #fff;
   transition: 0.3s;
   border-radius: 4;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #5295ce;
+  background: #16418e;
 }
 
 #footer .copyright {
@@ -1516,5 +1511,5 @@ section {
 }
 
 #footer .credits a {
-  color: #9eccf4;
+  color: #dee2e9;
 }
