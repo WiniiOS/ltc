@@ -10,7 +10,6 @@
     <h1>Message de Contact LTC Group Sarl</h1>
     <p>Name : {{ $data['name'] }}</p>
     <p>Email : {{ $data['email'] }}</p>
-    <p>Sujet : {{ $data['subject'] }}</p>
     <p>Message : {{ $data['message'] }}</p>
 </body>
 </html>

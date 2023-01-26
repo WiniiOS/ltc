@@ -13,18 +13,14 @@ class ContactMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $data;
-
     /**
      * Create a new message instance.
      *
      * @return void
      */
-
-
-    public function __construct($data)
+    public function __construct(public string $name,public string $email,public string $message)
     {
-        $this->data = $data;
+        //
     }
 
     /**
@@ -35,7 +31,7 @@ class ContactMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'Contact Mail',
+            subject: 'FORMULAIRE DE CONTACT LTC GROUP SARL',
         );
     }
 
@@ -47,7 +43,7 @@ class ContactMail extends Mailable
     public function content()
     {
         return new Content(
-            view: 'emails.ContactMail',
+            markdown: 'emails.contact',
         );
     }
 

@@ -7,6 +7,7 @@ use App\Models\Contact;
 use App\Mail\ContactMail;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
+use App\Http\Requests\ContactRequest;
 
 class ContactController extends Controller
 {
@@ -15,28 +16,12 @@ class ContactController extends Controller
         return view('contact');
     }
 
-    public function sendmail(Request $request)
+    public function sendmail(ContactRequest $request)
     {
-        $request->validate([
-            'name'  => ['required'],
-            'email' => ['required','email'],
-            'subject'  => ['required'],
-            'message'  => ['required'],
-        ]);
 
-        $data = [
-            'name' => $request->name,
-            'email' => $request->email,
-            'subject' => $request->subject,
-            'message' => $request->message
-        ];
-
-        $emailContact = new ContactMail($data);
-
-        Mail::to('franckndi5@gmail.com')->send($emailContact);
+        Mail::to('ltcgroup@cyberjob.cm')->send(new ContactMail($request->name,$request->email,$request->message));
 
         return back()->with('successMail', 'Votre Mail a bien été envoyé');
-
 
     }
 
