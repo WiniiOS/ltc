@@ -21,29 +21,20 @@
         <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
 
             <div class="section-title">
-            <h2>Qui sommes-nous ?</h2>
-            <p>L’entreprise LTC Group SARL est une entreprise exerçant dans divers domaines des nouvelles technologies entre autres le marketing digital, le développement d’application mobile et web, la communication, la publicité sur internet, la prestation de services, bâtiments et travaux publics, et le commerce général</p>
+            <h2> {{ __("ltc.About-us") }} </h2>
+            <p> {{ __("ltc.AboutDescription") }} </p>
             </div>
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="bx bx-fingerprint"></i></div>
-            <h4 class="title"><a href="">LTC GROUP </a></h4>
-            <p class="description">En partenariat avec UBA cette branche s’occupe de : 
-                ✓ Vente des cartes visa prépayée UBA
-                ✓ Recharge des cartes visa prépayée UBA
-                ✓ Formations
-            </p>
+            <h4 class="title"><a href=""> {{ __("ltc.AboutFirstItemTitle") }} </a></h4>
+            <p class="description"> {{ __("ltc.AboutFirstDesc") }} </p>
             </div>
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="bx bx-gift"></i></div>
-            <h4 class="title"><a href="">LTC GROUP COMMUNICATION</a></h4>
-            <p class="description"> Cette branche est dédiée au marketing digital entre autres :
-                ✓ La publicité sur internet (Facebook, Instagram, YouTube...)
-                ✓ La communication digitale : gestion des pages et des contenus digitaux ✓ La création des logos
-                ✓ La création des affiches
-                ✓ Graphisme
-            </p>
+            <h4 class="title"><a href=""> {{ __("ltc.AboutSecondItemTitle") }} </a></h4>
+            <p class="description"> {{ __("ltc.AboutSecondDesc") }} </p>
             </div>
 
         </div>
