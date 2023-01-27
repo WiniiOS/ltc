@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AppController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\LocalizationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +23,6 @@ Route::get('contact', [ContactController::class, 'index'])->name('contact');
 Route::post('sendmail', [ContactController::class, 'sendmail'])->name('sendmail');
 
 Route::post('subscribe', [ContactController::class, 'subscribe'])->name('newsletter');
+
+
+// Route::get('lang/{locale}', [App\Http\Controllers\LocalizationController::class, 'index']);
