@@ -53,7 +53,7 @@
             <div class="count-box">
             <i class="bi bi-simple-smile" style="color: #20b38e;"></i>
             <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Clients satisfaits</p>
+            <p>{{ __("ltc.Stat1") }}</p>
             </div>
         </div>
 
@@ -61,7 +61,7 @@
             <div class="count-box">
             <i class="bi bi-document-folder" style="color: #c042ff;"></i>
             <span data-purecounter-start="0" data-purecounter-end="60" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Réalisations</p>
+            <p>{{ __("ltc.Stat2") }}</p>
             </div>
         </div>
 
@@ -69,7 +69,7 @@
             <div class="count-box">
             <i class="bi bi-live-support" style="color: #46d1ff;"></i>
             <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Heures de Support</p>
+            <p>{{ __("ltc.Stat3") }}</p>
             </div>
         </div>
 
@@ -77,7 +77,7 @@
             <div class="count-box">
             <i class="bi bi-users-alt-5" style="color: #ffb459;"></i>
             <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Membres</p>
+            <p>{{ __("ltc.Stat4") }}</p>
             </div>
         </div>
 
