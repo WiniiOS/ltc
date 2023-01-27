@@ -17,8 +17,8 @@
 
         <li class="dropdown"><a href="#"><span>&#127760; Language</span> <i class="bi bi-chevron-down"></i></a>
           <ul>
-            <li><a href="#"> 🇺🇸English </a></li>
-            <li><a href="#"> 🇫🇷Français </a></li>
+            <li><a href="?locale=en"> 🇺🇸EN </a></li>
+            <li><a href="?locale=fr"> 🇫🇷FR </a></li>
           </ul>
         </li>
 
