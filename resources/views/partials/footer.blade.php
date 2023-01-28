@@ -19,30 +19,30 @@
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Liens utiles</h4>
+            <h4>{{ __("ltc.header1") }}</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Accueil</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">A propos</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Nos Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __("ltc.Useful1") }}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __("ltc.Useful2") }}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __("ltc.Useful3") }}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __("ltc.Useful4") }}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Nos Services</h4>
+            <h4>{{ __("ltc.header2") }}</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Vente & Recharge Visa UBA</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Développement web & mobile</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing Digital</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Design Graphique</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Vente et achats de produits electroniques</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Go-Livraison</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __("ltc.LinkService1") }}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __("ltc.LinkService2") }}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __("ltc.LinkService3") }}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __("ltc.LinkService4") }}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __("ltc.LinkService5") }}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{ __("ltc.LinkService6") }}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Notre Newsletter</h4>
-            <p>Inscrivez vous à notre newsletter pour etre informé de nos promotions</p>
+            <h4>{{ __("ltc.header3") }}</h4>
+            <p>{{ __("ltc.desc3") }}</p>
             
             <form action="{{ route('newsletter') }}" method="post">
               @csrf

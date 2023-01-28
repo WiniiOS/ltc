@@ -86,11 +86,11 @@ return [
     'Useful2' => 'About',
     'Useful3' => 'Our Services',
     'Useful4' => 'Terms of service',
-    'LinkService1' => 'Vente & Recharge Visa UBA',
+    'LinkService1' => 'UBA Visa Sales & Refill',
     'LinkService2' => 'Web & mobile development',
     'LinkService3' => 'Digital Marketing',
     'LinkService4' => 'Graphic Design',
-    'LinkService5' => 'Vente et achats de produits electroniques',
+    'LinkService5' => 'Sale and purchase of electronic products',
     'LinkService6' => 'Go-Livraison',
 
     
