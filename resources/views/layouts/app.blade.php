@@ -8,7 +8,7 @@
         <meta content="Market,digital,developpement web et mobile" name="keywords">
         <!-- Favicons -->
         <link href="{{ asset('imports/assets/img/favicon.png') }}" rel="icon">
-        <link href="{{ asset('imports/assets/img/apple-touch-icon.png') }}" rel="apple-touch-icon">
+        <link href="{{ asset('imports/assets/img/favicon.png') }}" rel="apple-touch-icon">
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
         <!-- Vendor CSS Files -->
