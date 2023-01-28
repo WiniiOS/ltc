@@ -97,62 +97,44 @@
         <div class="row">
         <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
             <div class="icon"><i class="bi bi-chat-left-dots"></i></div>
-            <h4 class="title"><a href="">LTC GROUP</a></h4>
+            <h4 class="title"><a href="">{{ __("ltc.Service1") }}</a></h4>
             <p class="description">
-            En partenariat avec UBA cette branche s’occupe de : ✓ Vente des cartes visa prépayée UBA
-            ✓ Recharge des cartes visa prépayée UBA
-            ✓ Formations
+            {{ __("ltc.Service1Desc") }}
             </p>
 
         </div>
         <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="bi bi-bounding-box"></i></div>
-            <h4 class="title"><a href="">LTC GROUP COMMUNICATION</a></h4>
-            <p class="description">Cette branche est dédiée au marketing digital entre autres :
-                ✓ La publicité sur internet (Facebook, Instagram, YouTube...)
-                ✓ La communication digitale : gestion des pages et des contenus digitaux ✓ La création des logos
-                ✓ La création des affiches
-                ✓ Graphisme
+            <h4 class="title"><a href="">{{ __("ltc.Service2") }} </a></h4>
+            <p class="description">
+            {{ __("ltc.Service2Desc") }}
             </p>
         </div>
         <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="bi bi-globe"></i></div>
-            <h4 class="title"><a href="">LTC GROUP HOST</a></h4>
-            <p class="description">Ce volet s’occupe de :
-                ✓ La création des sites web
-                ✓ Du développement des applications
-                ✓ De la vente et achat des cryptomonnaies
+            <h4 class="title"><a href="">{{ __("ltc.Service3") }} </a></h4>
+            <p class="description">
+            {{ __("ltc.Service3Desc") }}
             </p>
         </div>
         <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
             <div class="icon"><i class="bi bi-broadcast"></i></div>
-            <h4 class="title"><a href="">E-MARKET</a></h4>
-            <p class="description">Site de vente en ligne de l’entreprise, cette branche propose plusieurs articles disponibles que nous regroupons en différentes catégories ci-après :
-                    ✓ Produits électroniques
-                    ✓ Accessoires hommes/femmes
-                    ✓ Accessoires enfants
-                    ✓ Accessoires de protection
-                    ✓ Outils informatiques
-                    ✓ Produits vidéo-surveillances
-                    ✓ Accessoires de stockage
-                    ✓ Accessoires de voitures
-                    ✓ Accessoires pour ordinateurs
-                    ✓ Drones et accessoires
-                    ✓ Lampes et accessoires de luminosité ✓ Etc...
-                </p>
+            <h4 class="title"><a href="">{{ __("ltc.Service4") }}</a></h4>
+            <p class="description">
+            {{ __("ltc.Service4Desc") }}
+            </p>
         </div>
         <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
             <div class="icon"><i class="bi bi-brightness-high"></i></div>
-            <h4 class="title"><a href="">GO LIVRAISON</a></h4>
-            <p class="description">Nous proposons à travers cette branche un service de livraison des produits (produits divers, repas etc...) a des commerçants n’ayant pas de temps d’effectuer eux même leur livraison dans les villes de Yaoundé et Douala. Cela consiste à :
-                ➢ Enregistrer les commandes des partenaires
-                ➢ Déléguer un livreur qui appel le partenaire et va collecter ses articles ➢ Contacter les clients et effectuer les livraisons de ce dernier
+            <h4 class="title"><a href="">{{ __("ltc.Service5") }}</a></h4>
+            <p class="description">
+            {{ __("ltc.Service5Desc") }}
             </p>
         </div>
         <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
             <div class="icon"><i class="bi bi-calendar2-week"></i></div>
-            <h4 class="title"><a href="">SERVICE CLIENT</a></h4>
-            <p class="description">Notre service client est disponible chaque jour pour vous orrienter.</p>
+            <h4 class="title"><a href="">{{ __("ltc.Service6") }}</a></h4>
+            <p class="description">{{ __("ltc.Service6Desc") }}</p>
         </div>
         </div>
 
@@ -165,16 +147,16 @@
     <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="section-title">
-        <h2>Nos Réalisations</h2>
-        <p>Nos récentes réalisations graphiques et projets de sites webs livrés .</p>
+        <h2>{{ __("ltc.PortfolioHeader") }}</h2>
+        <p>{{ __("ltc.PortfolioDesc") }}</p>
         </div>
 
         <div class="row">
         <div class="col-lg-12">
             <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">Tout</li>
-            <li data-filter=".filter-visuel">Visuels</li>
-            <li data-filter=".filter-web">Sites Web</li>
+            <li data-filter="*" class="filter-active">{{ __("ltc.FilterAll") }}</li>
+            <li data-filter=".filter-visuel">{{ __("ltc.FilterGraphic") }}</li>
+            <li data-filter=".filter-web">{{ __("ltc.FilterWeb") }}</li>
             </ul>
         </div>
         </div>
@@ -185,8 +167,8 @@
             <div class="portfolio-wrap">
             <img src="{{ url('imports/assets/img/portfolio/portfolio-1.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
+                <h4>Graphic 1</h4>
+                <p>Graphic</p>
                 <div class="portfolio-links">
                 <a href="{{ url('imports/assets/img/portfolio/portfolio-1.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
                 <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
@@ -199,8 +181,8 @@
             <div class="portfolio-wrap">
             <img src="{{ url('imports/assets/img/portfolio/portfolio-2.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <h4>Graphic 2</h4>
+                <p>Graphic</p>
                 <div class="portfolio-links">
                 <a href="{{ url('imports/assets/img/portfolio/portfolio-2.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
                 <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
@@ -213,8 +195,8 @@
             <div class="portfolio-wrap">
             <img src="{{ url('imports/assets/img/portfolio/portfolio-3.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
+                <h4>Web 1</h4>
+                <p>Web</p>
                 <div class="portfolio-links">
                 <a href="{{ url('imports/assets/img/portfolio/portfolio-3.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
                 <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
@@ -227,8 +209,8 @@
             <div class="portfolio-wrap">
             <img src="{{ url('imports/assets/img/portfolio/portfolio-4.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
+                <h4>Web 2</h4>
+                <p>Web</p>
                 <div class="portfolio-links">
                 <a href="{{ url('imports/assets/img/portfolio/portfolio-4.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
                 <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
@@ -241,8 +223,8 @@
             <div class="portfolio-wrap">
             <img src="{{ url('imports/assets/img/portfolio/portfolio-5.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
+                <h4>Graphic 3</h4>
+                <p>Graphic</p>
                 <div class="portfolio-links">
                 <a href="{{ url('imports/assets/img/portfolio/portfolio-5.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
                 <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
@@ -255,8 +237,8 @@
             <div class="portfolio-wrap">
             <img src="{{ url('imports/assets/img/portfolio/portfolio-6.jpg') }}" class="img-fluid" alt="">
             <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
+                <h4>Graphic 6</h4>
+                <p>Graphic</p>
                 <div class="portfolio-links">
                 <a href="{{ url('imports/assets/img/portfolio/portfolio-6.jpg') }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
                 <!-- <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a> -->
@@ -275,8 +257,8 @@
     <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-        <h2>Notre Team</h2>
-        <p>LTC GROUP SARL est principalement constitué d'une équipe jeune et dynamique.</p>
+        <h2>{{ __("ltc.TeamHeader") }}</h2>
+        <p>{{ __("ltc.TeamDesc") }}</p>
         </div>
 
         <div class="row">
@@ -362,7 +344,7 @@
     <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-        <h2>Contactez-nous</h2>
+        <h2>{{ __("ltc.ContactHeader") }}</h2>
         </div>
 
         <div class="row">
@@ -370,9 +352,9 @@
         <div class="col-lg-6 d-flex" data-aos="fade-up">
             <div class="info-box">
             <i class="bx bx-map"></i>
-            <h3>Notre Addresse</h3>
-            <p><span style="font-weight:bold;color:grey;">Yaoundé</span> : Mvan descente entrée complexe BEAC, Yaoundé, Cameroun</p><br>
-            <p><span style="font-weight:bold;color:grey;">Douala</span> : Immeuble Saker Ndokotti En venant du tunnel Ndokotti <br> juste apres la total magzi</p>
+            <h3>{{ __("ltc.Box1Header") }}</h3>
+            <p><span style="font-weight:bold;color:grey;">Yaoundé</span> : {{ __("ltc.Box1Desc1") }} </p><br>
+            <p><span style="font-weight:bold;color:grey;">Douala</span> : {{ __("ltc.Box1Desc2") }} </p>
 
             </div>
         </div>
@@ -388,7 +370,7 @@
         <div class="col-lg-3 d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="info-box ">
             <i class="bx bx-phone-call"></i>
-            <h3>Telephone</h3>
+            <h3>{{ __("ltc.Box3Header") }}</h3>
             <p><a href="tel:+237 691 371 922">+237 691 371 922</a><br> <a href="tel:+237 670 129 795">+237 670 129 795</a></p>
             </div>
         </div>
@@ -399,7 +381,7 @@
             @csrf
             <div class="row">
                 <div class="col-lg-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Votre Nom" required>
+                <input type="text" name="name" class="form-control" id="name" placeholder="{{ __('ltc.Field1Desc') }}" required>
                 </div>
                 <div class="col-lg-6 form-group">
                 <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
@@ -412,13 +394,12 @@
             
 
             <div class="my-3">
-                <div class="loading">Chargement</div>
+                <div class="loading">{{ __("ltc.Loader") }}</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Merçi! Votre message a bien été envoyé.</div>
+                <div class="sent-message">{{ __("ltc.Message") }}</div>
             </div>
             
-            <div class="text-center"><button type="submit">Envoyer</button></div>
-            <!-- <input type="submit" value="Envoyer"> -->
+            <div class="text-center"><button type="submit">{{ __("ltc.FormButton") }}</button></div>
             </form>
             @if (session('successMail'))
                 <div class="alert alert-success">
