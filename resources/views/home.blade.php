@@ -252,82 +252,9 @@
     </div>
     </section><!-- End Our Portfolio Section -->
 
-    <!-- ======= Our Team Section ======= -->
-    <section id="team" class="team">
-    <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-        <h2>{{ __("ltc.TeamHeader") }}</h2>
-        <p>{{ __("ltc.TeamDesc") }}</p>
-        </div>
-
-        <div class="row">
-
-        <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up">
-            <div class="member">
-            <div class="pic"><img src="{{ url('imports/assets/img/team/team-1.jpg') }}" class="img-fluid" alt=""></div>
-            <div class="member-info">
-                <h4>Lontsi</h4>
-                <span>CEO</span>
-                <div class="social">
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-            </div>
-            </div>
-        </div>
-
-        <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-            <div class="pic"><img src="{{ url('imports/assets/img/team/team-2.jpg') }}" class="img-fluid" alt=""></div>
-            <div class="member-info">
-                <h4>Ornelle</h4>
-                <span>Assistante Direction</span>
-                <div class="social">
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-            </div>
-            </div>
-        </div>
-
-        <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-            <div class="pic"><img src="{{ url('imports/assets/img/team/team-3.jpg') }}" class="img-fluid" alt=""></div>
-            <div class="member-info">
-                <h4>Christian</h4>
-                <span>Infographe</span>
-                <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                </div>
-            </div>
-            </div>
-        </div>
-
-        <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-            <div class="pic"><img src="{{ url('imports/assets/img/team/team-4.jpg') }}" class="img-fluid" alt=""></div>
-            <div class="member-info">
-                <h4>Frederic</h4>
-                <span>Developpeur</span>
-                <div class="social">
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-            </div>
-            </div>
-        </div>
-
-        </div>
-
-    </div>
-    </section><!-- End Our Team Section -->
 
     <!-- ======= Map Section ======= -->
-    <section id="map" class="map section-bg">
+    <section id="map" class="map contact">
     <div class="container" data-aos="fade-up">
 
         <div class="mapouter">
@@ -371,7 +298,7 @@
             <div class="info-box ">
             <i class="bx bx-phone-call"></i>
             <h3>{{ __("ltc.Box3Header") }}</h3>
-            <p><a href="tel:+237 691 371 922">+237 691 371 922</a><br> <a href="tel:+237 670 129 795">+237 670 129 795</a></p>
+            <p><a href="tel:+237 673 209 375">+237 673 209 375</a><br><a href="tel:+237 691 371 922">+237 691 371 922</a><br> <a href="tel:+237 670 129 795">+237 670 129 795</a></p>
             </div>
         </div>
 

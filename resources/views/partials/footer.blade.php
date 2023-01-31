@@ -5,12 +5,12 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>LTC GROUP</h3>
+            <h3>LTC GROUP SARL</h3>
             <p>
             Mvan descente entrée complexe BEAC,<br>
             Yaoundé, Cameroun<br><br>
             <strong>Phone:</strong>  <a style="color:white;" href="tel:+237 691 371 922">+237 691 371 922</a> <br> <a style="color:white;" href="tel:+237 670 129 795"> +237 670 129 795 </a><br>
-            <strong>Email:</strong>  <br> <a style="color:white;" href="mailto:ltcgroup@cyberjob.cm"><span>ltcgroup@cyberjob.cm</span> </a>
+            <strong>Email:</strong> <a style="color:white;" href="mailto:ltcgroup@cyberjob.cm"><span>ltcgroup@cyberjob.cm</span> </a>
             </p>
             <div class="social-links mt-3">
               <a href="https://www.facebook.com/LTCGroupSARL" class="facebook"><i class="bx bxl-facebook"></i></a>
