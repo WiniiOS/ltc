@@ -71,7 +71,7 @@ return [
     'ContactHeader' => 'Contactez-nous',
     'Box1Header' => 'Addresse',
     'Box1Desc1' => "Mvan descente entrée complexe BEAC, Yaoundé, Cameroun",
-    'Box1Desc1' => "Immeuble Saker Ndokotti En venant du tunnel Ndokotti juste apres la total magzi",
+    'Box1Desc2' => "Immeuble Saker Ndokotti En venant du tunnel Ndokotti juste apres la total magzi",
     'Box3Header' => 'Teléphone',
     'Field1Desc' => 'Nom',
     'FormButton' => 'Envoyer',
