@@ -10,7 +10,7 @@
             <li>{{ __("ltc.Box1Desc1") }}</li>  <br>
             <li>Immeuble Saker Ndokotti Douala, Cameroun</li> <br><br>
             <strong>Phone:</strong> <a style="color:white;" href="tel:+237 673 209 375"> +237 673 209 375 </a><br> <a style="color:white;" href="tel:+237 691 371 922">+237 691 371 922</a> <br> 
-            <strong>Email:</strong> <a style="color:white;" href="mailto:ltcgroup@cyberjob.cm"><span>ltcgroup@cyberjob.cm</span> </a>
+            <strong>Email:</strong> <a style="color:white;" href="mailto:contact@ltcgroup.net"><span>contact@ltcgroup.net</span> </a>
             </p>
             <div class="social-links mt-3">
               <a href="https://www.facebook.com/LTCGroupSARL" class="facebook"><i class="bx bxl-facebook"></i></a>

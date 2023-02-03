@@ -290,7 +290,7 @@
             <div class="info-box">
             <i class="bx bx-envelope"></i>
             <h3>Email</h3>
-            <p><a href="mailto:ltcgroup@cyberjob.cm">ltcgroup@cyberjob.cm</a> </p>
+            <p><a href="mailto:contact@ltcgroup.net">contact@ltcgroup.net</a> </p>
             </div>
         </div>
 
